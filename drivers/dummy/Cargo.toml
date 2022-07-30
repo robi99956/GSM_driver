@@ -1,0 +1,11 @@
+[package]
+name = "dummy"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/dummy.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gsm_interface = {path = "../../gsm_interface"}

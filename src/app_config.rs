@@ -11,9 +11,9 @@ const DEVICE_OPT_SHORT: char = 'd';
 
 #[derive(Debug)]
 pub struct AppConfig {
-    use_cli: bool,
-    socket_path: Option<String>,
-    device_type: Option<String>,
+    pub use_cli: bool,
+    pub socket_path: Option<String>,
+    pub device_type: Option<String>,
 }
 
 impl AppConfig {

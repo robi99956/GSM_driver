@@ -1,0 +1,12 @@
+[package]
+name = "uc20g"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/uc20g.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gsm_interface = {path = "../../gsm_interface"}

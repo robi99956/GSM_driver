@@ -7,3 +7,6 @@ edition = "2018"
 
 [dependencies]
 clap = {version = "3.2.14", features = ["cargo"]}
+gpio-cdev = "0.5.1"
+dummy = {path = "drivers/dummy"}
+gsm_interface = {path = "gsm_interface"}
